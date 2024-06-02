@@ -1,0 +1,293 @@
+[
+  {
+    "question": "<p>Write a program to print the ASCII value of a character</p>",
+    "input_format": "<p>Input consist of a character</p>",
+    "output_format": "<p>Output prints the ASCII value of the character</p>",
+    "solution": [
+      {
+        "language": "cpp",
+        "code": "#include<bits/stdc++.h>\nusing namespace std;\nint main()\n{\n    char chr;\n    cin>>chr;\n    cout<<(int)chr;\n    return 0;\n}"
+      }
+    ],
+    "sample_io": [
+      {
+        "input": "a",
+        "output": "97",
+        "difficulty": " - ",
+        "score": " - "
+      },
+      {
+        "input": "b",
+        "output": "98",
+        "difficulty": " - ",
+        "score": " - "
+      },
+      {
+        "input": "A",
+        "output": "65",
+        "difficulty": " - ",
+        "score": " - "
+      }
+    ],
+    "testcases": [
+      {
+        "input": "g",
+        "output": "103",
+        "difficulty": "Easy",
+        "score": 10
+      },
+      {
+        "input": "b",
+        "output": "98",
+        "difficulty": "Medium",
+        "score": 15
+      },
+      {
+        "input": "k",
+        "output": "107",
+        "difficulty": "Medium",
+        "score": 15
+      },
+      {
+        "input": "w",
+        "output": "119",
+        "difficulty": "Hard",
+        "score": 20
+      },
+      {
+        "input": "x",
+        "output": "120",
+        "difficulty": "Hard",
+        "score": 20
+      },
+      {
+        "input": "m",
+        "output": "109",
+        "difficulty": "Hard",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "question": "<p>Write a program to multiply two integers</p>",
+    "input_format": "<p>Input consists of two integers separated by space</p>",
+    "output_format": "<p>Output prints the multiplied value</p>",
+    "solution": [
+      {
+        "language": "cpp",
+        "code": "#include<bits/stdc++.h>\nusing namespace std;\nint main()\n{\n   int num1,num2,res;\n   cin>>num1>>num2;\n   res=num1*num2;\n   cout<<res;\n}"
+      }
+    ],
+    "sample_io": [
+      {
+        "input": "10 5",
+        "output": "50",
+        "difficulty": " - ",
+        "score": " - "
+      },
+      {
+        "input": "231 43",
+        "output": "9933",
+        "difficulty": " - ",
+        "score": " - "
+      }
+    ],
+    "testcases": [
+      {
+        "input": "20 30",
+        "output": "600",
+        "difficulty": "Medium",
+        "score": 15
+      },
+      {
+        "input": "197 5",
+        "output": "985",
+        "difficulty": "Medium",
+        "score": 15
+      },
+      {
+        "input": "30 3",
+        "output": "90",
+        "difficulty": "Easy",
+        "score": 10
+      },
+      {
+        "input": "456 23",
+        "output": "10488",
+        "difficulty": "Hard",
+        "score": 20
+      },
+      {
+        "input": "156 31",
+        "output": "4836",
+        "difficulty": "Hard",
+        "score": 20
+      },
+      {
+        "input": "1111 1111",
+        "output": "1234321",
+        "difficulty": "Hard",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "question": "<p>Write a program that accepts two integers as input and prints their sum.</p>",
+    "input_format": "<p>The input consists of two integers separated by a space.</p>",
+    "output_format": "<p>The output prints their sum.</p>",
+    "solution": [
+      {
+        "language": "cpp",
+        "code": "#include<bits/stdc++.h>\nusing namespace std;\nint main()\n{\n    int a,b;\n    cin>>a>>b;\n    cout<<a+b;\n    return 0;\n}"
+      }
+    ],
+    "sample_io": [
+      {
+        "input": "10 20",
+        "output": "30",
+        "difficulty": " - ",
+        "score": " - "
+      },
+      {
+        "input": "258 965",
+        "output": "1223",
+        "difficulty": " - ",
+        "score": " - "
+      }
+    ],
+    "testcases": [
+      {
+        "input": "25 69",
+        "output": "94",
+        "difficulty": "Easy",
+        "score": 10
+      },
+      {
+        "input": "65 85",
+        "output": "150",
+        "difficulty": "Easy",
+        "score": 10
+      },
+      {
+        "input": "63 84",
+        "output": "147",
+        "difficulty": "Easy",
+        "score": 10
+      },
+      {
+        "input": "125 856",
+        "output": "981",
+        "difficulty": "Medium",
+        "score": 15
+      },
+      {
+        "input": "865 956",
+        "output": "1821",
+        "difficulty": "Medium",
+        "score": 15
+      },
+      {
+        "input": "8569 4854",
+        "output": "13423",
+        "difficulty": "Hard",
+        "score": 20
+      },
+      {
+        "input": "2563 8455",
+        "output": "11018",
+        "difficulty": "Hard",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "question": "<p class=\"ql-align-center\"><strong style=\"color: rgb(51, 51, 51);\">Customized Welcome Message</strong></p><p class=\"ql-align-center\"><span style=\"color: rgb(51, 51, 51);\">&nbsp;</span></p><p><span style=\"color: rgb(77, 77, 77);\">Nikhil, the founder of “Pine Tree” company wished to design an Event Management System that would let its Customers plan and host events seamlessly via an online platform.</span></p><p><span style=\"color: rgb(77, 77, 77);\">&nbsp;</span></p><p><span style=\"color: rgb(77, 77, 77);\"> As a part of this requirement, Nikhil wanted to write a piece of code for his company’s Examly Event Management System that will display customized welcome messages by taking Customers’ name as input. Help Nikhil on the task.</span></p>",
+    "input_format": "<p><span style=\"color: rgb(77, 77, 77);\">First line of the input is a string that corresponds to a Customer’s name.&nbsp;</span></p>",
+    "output_format": "<p><span style=\"color: rgb(77, 77, 77);\">Output should display the welcome message along with the Customer’s name</span></p>",
+    "solution": [
+      {
+        "language": "cpp",
+        "code": "#include<iostream>\r\nusing namespace std;\r\nint main()\r\n{\r\n   char str[50];\r\n cin >> str;\r\n cout << \"Hello \" << str << \"! Welcome to Examly Event Management System\" <<endl;\r\nreturn 0;\r\n}"
+      }
+    ],
+    "sample_io": [
+      {
+        "input": "Benny",
+        "output": "Hello Benny! Welcome to Examly Event Management System\n",
+        "difficulty": " - ",
+        "score": " - "
+      }
+    ],
+    "testcases": [
+      {
+        "input": "Ankit",
+        "output": "Hello Ankit! Welcome to Examly Event Management System\n",
+        "difficulty": "Medium",
+        "score": 25
+      },
+      {
+        "input": "Sharma",
+        "output": "Hello Sharma! Welcome to Examly Event Management System\n",
+        "difficulty": "Medium",
+        "score": 25
+      },
+      {
+        "input": "Williams",
+        "output": "Hello Williams! Welcome to Examly Event Management System\n",
+        "difficulty": "Medium",
+        "score": 25
+      },
+      {
+        "input": "Shaaruk",
+        "output": "Hello Shaaruk! Welcome to Examly Event Management System\n",
+        "difficulty": "Medium",
+        "score": 25
+      }
+    ]
+  },
+  {
+    "question": "<p>Write a program that accepts a user name and password as input and prints the same.</p>",
+    "input_format": "<p>The input consists of the user name and password separated by a space.</p>",
+    "output_format": "<p>The output prints the username and password separated by tab space.</p>",
+    "solution": [
+      {
+        "language": "cpp",
+        "code": "#include<bits/stdc++.h>\nusing namespace std;\nint main() \n{\n    char name[50],pwd[50];\n    cin>>name>>pwd;\n    cout<<name<<\"\\t\"<<pwd;\n}"
+      }
+    ],
+    "sample_io": [
+      {
+        "input": "alice alice01",
+        "output": "alice\talice01",
+        "difficulty": " - ",
+        "score": " - "
+      }
+    ],
+    "testcases": [
+      {
+        "input": "harry harry20",
+        "output": "harry\tharry20",
+        "difficulty": "Hard",
+        "score": 25
+      },
+      {
+        "input": "harry harry123",
+        "output": "harry\tharry123",
+        "difficulty": "Hard",
+        "score": 25
+      },
+      {
+        "input": "anna anna18",
+        "output": "anna\tanna18",
+        "difficulty": "Hard",
+        "score": 25
+      },
+      {
+        "input": "anna anna123",
+        "output": "anna\tanna123",
+        "difficulty": "Hard",
+        "score": 25
+      }
+    ]
+  }
+]
